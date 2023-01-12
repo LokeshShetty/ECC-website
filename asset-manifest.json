@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ethiccraftclub/static/css/main.f6a97bee.css",
+    "main.js": "/ethiccraftclub/static/js/main.793fd4ad.js",
+    "static/js/787.a26cad2c.chunk.js": "/ethiccraftclub/static/js/787.a26cad2c.chunk.js",
+    "static/media/intellectualWar.png": "/ethiccraftclub/static/media/intellectualWar.a5d9b4934af9cea01a1c.png",
+    "static/media/vedasMeta.png": "/ethiccraftclub/static/media/vedasMeta.c9523b79574d100a9f28.png",
+    "static/media/TechItOut.png": "/ethiccraftclub/static/media/TechItOut.d1c454e16a92c6a305e1.png",
+    "static/media/personalGrowth.png": "/ethiccraftclub/static/media/personalGrowth.7694c5c7558ede26ed90.png",
+    "static/media/timeMgmt.png": "/ethiccraftclub/static/media/timeMgmt.36294914804ddf41951c.png",
+    "static/media/errorImg.png": "/ethiccraftclub/static/media/errorImg.839723eaa9295d052e3c.png",
+    "static/media/iyfIcon.png": "/ethiccraftclub/static/media/iyfIcon.cbfeb62bc1dabe3a0e9a.png",
+    "static/media/practicalSpirituality.png": "/ethiccraftclub/static/media/practicalSpirituality.069217468f1ffbc4b9c9.png",
+    "static/media/atAGlance.png": "/ethiccraftclub/static/media/atAGlance.331a66519ecdc10c91fd.png",
+    "static/media/iskconIcon.png": "/ethiccraftclub/static/media/iskconIcon.38ba405a61591d671130.png",
+    "static/media/eccIcon2.png": "/ethiccraftclub/static/media/eccIcon2.c156e0ec7a006102aab8.png",
+    "static/media/businessYoga.jpg": "/ethiccraftclub/static/media/businessYoga.6eda302b8c197df842f5.jpg",
+    "static/media/sikshaIcon.png": "/ethiccraftclub/static/media/sikshaIcon.42728c42e17ff7913c29.png",
+    "static/media/technion.png": "/ethiccraftclub/static/media/technion.c25f33f931cf1431dbfa.png",
+    "static/media/badaBusinessIcon.png": "/ethiccraftclub/static/media/badaBusinessIcon.9c640e32fae8406eb1b6.png",
+    "static/media/boardIcon.png": "/ethiccraftclub/static/media/boardIcon.77dc625bcabdb4270bb4.png",
+    "index.html": "/ethiccraftclub/index.html",
+    "main.f6a97bee.css.map": "/ethiccraftclub/static/css/main.f6a97bee.css.map",
+    "main.793fd4ad.js.map": "/ethiccraftclub/static/js/main.793fd4ad.js.map",
+    "787.a26cad2c.chunk.js.map": "/ethiccraftclub/static/js/787.a26cad2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6a97bee.css",
+    "static/js/main.793fd4ad.js"
+  ]
+}
