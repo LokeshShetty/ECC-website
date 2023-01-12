@@ -1,0 +1,54 @@
+.carousel-item .row {
+  margin: auto 8rem;
+}
+
+.carousel-item .col-sm-6 {
+  align-self: center;
+  text-align: center;
+  padding-left: 5rem;
+}
+
+.carouselBtn1 {
+  border: 1px solid #faab19;
+  color: #faab19;
+}
+
+.carouselBtn1:hover {
+  background-color: #faab19;
+  color: white;
+}
+
+.carouselBtn2 {
+  border: 1px solid #c54d92;
+  color: #c54d92;
+}
+
+.carouselBtn2:hover {
+  background-color: #c54d92;
+  color: white;
+}
+
+.carouselBtn3 {
+  border: 1px solid #48bfef;
+  color: #48bfef;
+}
+
+.carouselBtn3:hover {
+  background-color: #48bfef;
+  color: white;
+}
+
+.carousel {
+  width: 80rem;
+}
+
+@media (max-width: 576px) {
+  .carousel {
+    width: 40rem;
+  }
+
+  .colCar {
+    padding-left: 0 !important;
+    padding-right: 0;
+  }
+}

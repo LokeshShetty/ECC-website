@@ -1,0 +1,87 @@
+.rowEventCards {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  margin-bottom: 4rem;
+}
+
+.rowEventCards .col-3 {
+  width: 20rem;
+}
+
+.rowEventCards .card {
+  height: 25.4rem;
+}
+
+.bodyLink {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.bodyLink .card-subtitle {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.bodyLink a {
+  width: 4rem;
+  background-image: url(./imgs/rightArrowIcon.png);
+  background-repeat: no-repeat;
+  background-position-x: 0.5rem;
+  background-position-y: 4.7rem;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  background-size: 4rem;
+}
+
+.bodyLink a:hover {
+  transition: all 200ms ease-in-out;
+  background-image: url(./imgs/rightArrowIcon2.png);
+  color: white;
+}
+
+.cardY {
+  border: 1px solid #faab19;
+}
+
+.cardY:hover {
+  background-color: #faab19;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.cardP {
+  border: 1px solid #c54d92;
+}
+
+.cardP:hover {
+  background-color: #c54d92;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.cardB {
+  border: 1px solid #28bfef;
+}
+
+.cardB:hover {
+  background-color: #28bfef;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+@media (max-width: 576px) {
+  .rowEventCards {
+    justify-content: center !important;
+    margin-bottom: 1.5rem;
+  }
+
+  .rowEventCards > .col-3 {
+    margin: 1.5rem 0;
+  }
+
+  .rowEventCards > .col-3:nth-of-type(1) {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,69 @@
+.rowBrands {
+  align-items: center;
+}
+
+.rowBrands .col-5 {
+  text-align: center;
+  padding: 0;
+}
+
+.rowBrands .col-7 {
+  padding: 0;
+}
+
+.rowBrands .card-subtitle {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.rowBrands img {
+  width: 5rem;
+}
+
+.brandCol1 .card-body {
+  align-self: center;
+  display: flex;
+  padding: 1rem auto;
+}
+
+.brandCol1 {
+  margin: 0 2rem 0 2rem;
+}
+
+.sikshaCard {
+  width: 19rem;
+}
+
+.row1 {
+  margin-bottom: 4rem;
+}
+
+.brandCol1 {
+  width: 15rem;
+}
+
+.sikshaCard {
+  width: 19rem;
+}
+
+@media (max-width: 576px) {
+  .brandCol1 {
+    width: 19rem;
+  }
+
+  .row1 {
+    margin-bottom: 0;
+  }
+
+  .brandCol1 {
+    margin: 0 2rem 2rem 2rem;
+  }
+
+  .badaImg {
+    height: 5rem;
+  }
+
+  .badaImg > img {
+    padding-top: 1rem;
+  }
+}

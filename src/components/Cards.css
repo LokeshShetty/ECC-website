@@ -1,0 +1,91 @@
+.rowPlus {
+  margin-top: 3rem;
+  padding: 0 2rem 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.cardPlus {
+  width: 12rem;
+  height: 6rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.cardPlus:nth-of-type(1) {
+  border: 1px solid #faab19;
+}
+
+.cardPlus:nth-of-type(1):hover {
+  background-color: #faab19;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.cardPlus:nth-of-type(5):hover {
+  background-color: #faab19;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.cardPlus:nth-of-type(5) {
+  border: 1px solid #faab19;
+}
+
+.cardPlus:nth-of-type(3) {
+  border: 1px solid #48bfef;
+}
+
+.cardPlus:nth-of-type(3):hover {
+  background-color: #48bfef;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.cardPlus:nth-of-type(2):hover {
+  background-color: #c54d92;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.cardPlus:nth-of-type(4):hover {
+  background-color: #c54d92;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.cardPlus:nth-of-type(2) {
+  border: 1px solid #c54d92;
+}
+
+.cardPlus:nth-of-type(4) {
+  border: 1px solid #c54d92;
+}
+
+.cardPlus img {
+  width: 100%;
+}
+
+.cardPlus .col-8 {
+  padding: 0;
+  padding-left: 1.2rem;
+}
+
+.cardPlus .col-4 {
+  padding: 0;
+}
+
+@media (min-width: 576px) and (max-width: 1400px) {
+  .rowPlus {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .rowPlus {
+    justify-content: center !important;
+    width: 40rem;
+  }
+
+  .cardPlus {
+    margin: 0 0.75rem 1.5rem 0.75rem;
+  }
+}

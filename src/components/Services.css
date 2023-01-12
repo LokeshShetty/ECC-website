@@ -1,0 +1,76 @@
+.card1 {
+  width: 20rem;
+  text-align: center;
+}
+
+.card3 {
+  width: 20rem;
+  text-align: center;
+}
+
+.card1 .card {
+  border-color: #c54d92;
+}
+
+.card1 .card:hover {
+  background-color: #c54d92;
+  color: white;
+  transition: all 200ms;
+}
+
+.card3 .card {
+  border-color: #48bfef;
+}
+
+.card3 .card:hover {
+  background-color: #48bfef;
+  color: white;
+  transition: all 200ms;
+}
+
+.card2 {
+  width: 28rem;
+  text-align: center;
+}
+
+.card2 .card {
+  border-color: #faab19;
+}
+
+.card2 .card:hover {
+  background-color: #faab19;
+  color: white;
+  transition: all 200ms;
+}
+
+.rowServices {
+  margin: auto 3rem 5rem 3rem;
+  align-items: center;
+}
+
+.serviceTitle {
+  margin: 1rem auto;
+}
+
+@media (min-width: 576px) and (max-width: 1400px) {
+  .rowServices {
+    width: 80rem;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .card2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .rowServices {
+    justify-content: center !important;
+  }
+
+  .card1,
+  .card3 {
+    width: 28rem;
+  }
+}

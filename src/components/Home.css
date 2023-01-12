@@ -1,0 +1,89 @@
+.reach {
+  text-align: center;
+}
+
+.service {
+  text-align: center;
+  margin: 5rem auto 4rem auto;
+}
+
+.connect {
+  text-align: center;
+  margin: auto auto 3rem auto;
+}
+
+.subgroup,
+.event {
+  text-align: center;
+  margin: 4rem auto 3rem auto;
+}
+
+.heart {
+  background-color: #f8f9fa;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.heart img {
+  width: 1.4rem;
+}
+
+.reach:hover,
+.subgroup:hover,
+.connect:hover {
+  text-decoration: solid underline #48bfef 4px;
+}
+
+.service:hover,
+.event:hover {
+  text-decoration: solid underline #faab19 4px;
+}
+
+.heart img:hover {
+  transform: scale(1.1);
+  transition: transform 200ms ease-in-out;
+}
+
+@media (min-width: 576px) and (max-width: 1400px) {
+  .home {
+    margin-left: 10.5rem;
+    width: 80rem;
+  }
+
+  .contain1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .reach,
+  .service {
+    width: 80rem;
+  }
+
+  .contain2 {
+    display: table-footer-group;
+  }
+
+  .service {
+    margin-top: 0;
+  }
+
+  .heart {
+    margin-left: -11rem;
+    margin-right: -11rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .contain1,
+  .contain2 {
+    width: 40.8rem;
+  }
+
+  .heart {
+    width: 40.8rem;
+  }
+}

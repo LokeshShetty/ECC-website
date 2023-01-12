@@ -1,0 +1,12 @@
+.containErr {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.containErr img {
+  width: 100%;
+}
+
+.containErr .row {
+  justify-content: center;
+}
